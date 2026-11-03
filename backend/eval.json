@@ -1,0 +1,29 @@
+{
+  "description": "Perguntas de exemplo sobre 'Debt Behind the AI Boom'. Para cada pergunta, as páginas onde o fato aparece (qualquer uma delas conta como acerto).",
+  "questions": [
+    {
+      "id": "taxa-sobrevivencia",
+      "question": "Qual porcentagem dos problemas introduzidos por IA ainda sobrevive na versão mais recente do repositório?",
+      "expected": [
+        {"filename": "Debt Behind the AI Boom A.pdf", "pages": [1, 8, 9, 10]}
+      ],
+      "answer_hint": "22,7%"
+    },
+    {
+      "id": "ferramentas-analise",
+      "question": "Quais ferramentas de análise estática os autores usaram para detectar os problemas no código?",
+      "expected": [
+        {"filename": "Debt Behind the AI Boom A.pdf", "pages": [4]}
+      ],
+      "answer_hint": "ESLint, Pylint e Semgrep"
+    },
+    {
+      "id": "tipo-mais-comum",
+      "question": "Qual é o tipo de problema mais comum no código gerado por IA e qual a sua proporção?",
+      "expected": [
+        {"filename": "Debt Behind the AI Boom A.pdf", "pages": [1, 6, 8]}
+      ],
+      "answer_hint": "code smells, 89,3%"
+    }
+  ]
+}

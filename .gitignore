@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Configuração local (pode conter chaves de API)
+.env
+
+# Dados locais: ChromaDB, PDFs enviados, modelos baixados
+backend/data/
+
+# Editores / SO
+.DS_Store
+.idea/
+.vscode/
